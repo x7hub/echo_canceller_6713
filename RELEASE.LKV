@@ -1,0 +1,4 @@
+-z -q -a -c -o"through_intr.out" -x -i"c:/ti/c6000/bios/lib" -i"c:/ti/C6000/dsk6713/lib" -i"c:/ti/c6000/rtdx/lib" -i"c:/ti/c6000/cgtools/lib" -l"rts6700.lib"
+"C:\in_use\c6713dsk\line_in\through_intr\through_intr.obj"
+"C:\in_use\c6713dsk\line_in\through_intr\vectors.obj"
+"C:\in_use\c6713dsk\line_in\through_intr\lnk.cmd"

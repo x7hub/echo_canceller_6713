@@ -1,0 +1,4 @@
+-z -q -a -c -o"through_intr.out" -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib" -l"rts6700.lib"
+"F:\test\through_intr.obj"
+"F:\test\vectors.obj"
+"F:\test\lnk.cmd"

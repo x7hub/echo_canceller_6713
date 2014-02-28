@@ -1,0 +1,27 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="sample1"
+ProjectDir="G:\PBL-DSP\Programs\through_intr\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Release"
+
+[Source Files]
+Source="through_intr.c"
+Source="vectors.asm"
+Source="lnk.cmd"
+
+["Compiler" Settings: "Release"]
+Options=-g -q -o1 -mv6710
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v6x
+
+["Linker" Settings: "Release"]
+Options=-q -a -c -o"through_intr.out" -x -l"rts6700.lib"
+
